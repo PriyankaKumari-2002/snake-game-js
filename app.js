@@ -92,6 +92,7 @@ function draw(){
 
 }
 function replay(){
+    onClick="replay()"
     grid.innerHTML=""
     draw()
 }
